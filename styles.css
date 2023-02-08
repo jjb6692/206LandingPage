@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+h1, h3 {
+	font-family: "futura";
+}
+#top {
+	position: absolute;
+	width: 40%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+#image {
+	margin-left: 50%;
+	width: 30%;
+}
+#portrait {
+	width: 30%;
+	height: 50%;
+	margin-left: 50%;
+	margin-top: 5%;
+}
+#description {
+	margin-left: 10%;
+	margin-top: 5%;
+}
+.navButton {
+	width: 100px;
+	height: 100px;
+	border: hidden;
+	cursor: pointer;
+	font-family: "futura";
+	background-color: white;
+	font-size: 18px;
+}
+#navButton1 {
+	margin-left: 20%
+}
+#navButton2 {
+	margin-left: 22.5%
+}
+#navButton3 {
+	margin-left: 22.5%
+}
