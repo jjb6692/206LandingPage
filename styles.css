@@ -1,9 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
-h1, h3 {
+h1, h2, h3 {
 	font-family: "futura";
 }
-#top {
+#container {
+ 	width: 70%;
+	height: 100px;
+	margin-left: 15%;
+	background-color: white;
+}
+#greeting {
 	position: absolute;
 	width: 40%;
 	margin-left: 25%;
@@ -19,12 +25,23 @@ h1, h3 {
 	margin-left: 50%;
 	margin-top: 5%;
 }
-#description {
-	margin-left: 10%;
+#content {
+	margin-left: 22.5%;
 	margin-top: 5%;
+	width: 55%;
+	
+}
+.portfolio {
+	width: 30%;
+	height: 30%;
+	position: relative;
+	margin-left: 5%;
+}
+#photo2 {
+	margin-left: 30%;
 }
 .navButton {
-	width: 100px;
+	width: 10%;
 	height: 100px;
 	border: hidden;
 	cursor: pointer;
@@ -32,14 +49,32 @@ h1, h3 {
 	background-color: white;
 	font-size: 18px;
 }
-#navButton1 {
-	margin-left: 20%
-}
 #navButton2 {
-	margin-left: 22.5%
+	margin-left: 35%;
 }
 #navButton3 {
-	margin-left: 22.5%
+	position: relative;
+	margin-left: 34.3%;
+}
+#assignments, #projects {
+	width: 50%;
+	margin-left: 25%;
+	background-color: white;
+	height: 300px;
+	position: relative;
+}
+.square {
+	width: 40%;
+	height: 300px;
+	border-radius: 5%;
+	background-color: grey;
+	position: absolute;
+}
+#square2 {
+	margin-left: 60%;
+}
+#square4 {
+	margin-left: 60%;
 }
 a:link {
 	text-decoration: none;
